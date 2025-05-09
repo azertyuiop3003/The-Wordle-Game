@@ -60,6 +60,8 @@ This project is a simple implementation of the popular word-guessing game, Wordl
 
 ### 2. Install
 
+First, clone the repo. Then, install dependencies for both frontend and backend:
+
 ```bash
 # Frontend
 cd <project-root>
