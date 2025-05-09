@@ -107,13 +107,13 @@ Once the backend is running at `http://localhost:3001`, you have:
 
 ### Endpoints
 
-| Method | Path                    | Response                               |           |
-| ------ | ----------------------- | -------------------------------------- | --------- |
-| GET    | `/api/random-word`      | `{ "word": "<random 5-letter word>" }` |           |
-| GET    | `/api/word-valid/:word` | \`{ "valid": true                      | false }\` |
-| GET    | `/swagger.json`         | OpenAPI JSON spec                      |           |
-| GET    | `/api-docs`             | Swagger UI                             |           |
-| GET    | `/`                     | Redirects to `/api-docs`               |           |
+| Method | Path                    | Response                                    |
+| ------ | ----------------------- | ------------------------------------------- |
+| GET    | `/api/random-word`      | `{ "word": "<random 5-letter word>" }`      |
+| GET    | `/api/word-valid/:word` | `{ "valid": true }` or `{ "valid": false }` |
+| GET    | `/swagger.json`         | OpenAPI JSON spec                           |
+| GET    | `/api-docs`             | Swagger UI                                  |
+| GET    | `/`                     | Redirects to `/api-docs`                    |
 
 <p align="center">
   <img src="img/swagger.png" alt="Swagger UI Screenshot" width="100%">
