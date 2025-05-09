@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import TileRow from "./TileRow";
 import Keyboard from "./Keyboard";
 import GameWon from "./GameWon";
@@ -226,6 +227,7 @@ export default function App() {
 
   return (
     <>
+      <Analytics />
       {/* gradient animation */}
       <style>{`
         @keyframes gradientBG {
