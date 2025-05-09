@@ -1,7 +1,6 @@
 # The Wordle Game
 
-A clone of Wordle built with React on the front-end and an Express/Node backend deployed as a Serverless Function.  
-You get:
+This project is a simple implementation of the popular word-guessing game, Wordle. The game allows users to guess a 5-letter word within 6 attempts, providing feedback on each guess.
 
 - **Frontend**: React + Tailwind CSS, fully interactive Wordle UI
 - **Backend**: Express API serving `/api/random-word` & `/api/word-valid/:word`, with full Swagger docs
@@ -11,7 +10,17 @@ You get:
   <img src="img/wordle.png" alt="Wordle Screenshot" width="100%">
 </p>
 
----
+**Live Wordle Game: [https://the-wordle-game.vercel.app/](https://the-wordle-game.vercel.app/). Feel free to give it a try!**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white" alt="React Query" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Heroicons-0EA5E9?style=for-the-badge&logo=heroicons&logoColor=white" alt="Heroicons" />
+</p>
 
 ## 🚀 Tech Stack
 
@@ -19,8 +28,6 @@ You get:
 - **Backend**: Node.js (TypeScript), Express, `undici` for fetch, `serve-favicon`, in-memory cache + GitHub list fallback
 - **Docs**: OpenAPI (inline), Swagger UI
 - **Deploy**: Vercel (Functions + Static Build)
-
----
 
 ## 📁 Project Structure
 
@@ -42,8 +49,6 @@ You get:
 ├── package.json         # Frontend dependencies & scripts (CRA/Vite)
 └── README.md            # This file
 ```
-
----
 
 ## 🎯 Getting Started
 
